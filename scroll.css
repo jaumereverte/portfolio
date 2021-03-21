@@ -1,0 +1,13 @@
+::-webkit-scrollbar {
+  display: none;
+}
+html,
+body {
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  html,
+  body {
+    overflow: scroll;
+  }
+}
